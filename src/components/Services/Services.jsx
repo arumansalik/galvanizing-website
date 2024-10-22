@@ -47,7 +47,7 @@ const Services = () => {
   return (
     <div className="bg-[#fff]">
       <div className="container py-10">
-        <div className="space-y-4 p-6 text-center max-w-[500px] mx-auto mb-5">
+        <div className="space-y-3 p-6 text-center max-w-[500px] mx-auto mb-5">
           <h1 className="uppercase font-semibold text-amber-500">Why Choose Hot-Dip Galvanizing</h1>
           <p className="fontsemibold text-3xl">
           The Key Benefits for Long-Lasting Steel Protection

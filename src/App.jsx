@@ -5,6 +5,8 @@ import Banner from "./components/Banner/Banner";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Services from "./components/Services/Services";
+import Products from "./components/Products/Products";
+// import HotDip from "./components/HotDip/hotdip";
 
 const BannerData = {
   image: Img1,
@@ -22,6 +24,8 @@ const App = () => {
       <Hero />
       <Banner {...BannerData} />
       <Services />
+      <Products />
+      {/* <HotDip /> */}
     </div>
   );
 };
