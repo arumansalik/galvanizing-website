@@ -6,6 +6,7 @@ import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Services from "./components/Services/Services";
 import Products from "./components/Products/Products";
+import Testtimonials from "./components/Testimonials/Testtimonials";
 // import HotDip from "./components/HotDip/hotdip";
 
 const BannerData = {
@@ -26,6 +27,7 @@ const App = () => {
       <Services />
       <Products />
       {/* <HotDip /> */}
+      <Testtimonials />
     </div>
   );
 };

@@ -10,7 +10,7 @@ import { ServiceData } from '../constants'
 
 const Products = () => {
     return (
-        <div className='py-24'>
+        <div className='py-20 bg-gray-200' >
         <div className="space-y-3 p-6 text-center max-w-[500px] mx-auto mb-5">
           <h1 className="uppercase font-semibold text-amber-500">Our Premium Products</h1>
           <p className="fontsemibold text-3xl">
