@@ -29,7 +29,7 @@
       backgroundImage: beam4,
     },
     {
-      title: "Expander Mesh",
+      title: "Expanded Mesh",
       content: "Galvanized expander mesh is a steel mesh that has been coated with zinc to enhance corrosion resistance and durability. It is commonly used for security fencing, ventilation, and filtration, providing strength, flexibility, and long-lasting protection in harsh environments.",
       backgroundImage: beam5,
     },

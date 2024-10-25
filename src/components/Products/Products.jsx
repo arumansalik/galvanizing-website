@@ -11,20 +11,24 @@ import { ServiceData } from '../constants'
 const Products = () => {
     return (
         <div className='py-20 bg-gray-200' >
-        <div className="space-y-3 p-6 text-center max-w-[500px] mx-auto mb-5">
+        <div className="space-y-2 p-3 text-center max-w-[600px] mx-auto mb-5">
           <h1 className="uppercase font-semibold text-amber-500">Our Premium Products</h1>
           <p className="fontsemibold text-3xl">
           Built to Last: Superior Galvanized Steel & Iron Products
           </p>
         </div>
-        <div className="flex items-center justify-center flex-col h-[500px]">
+        <div className="flex items-center justify-center flex-col h-[400px]">
           <Swiper
             breakpoints={{
               340: {
-                slidesPerView: 2,
+                slidesPerView: 1,
                 spaceBetween: 15,
               },
-              700: {
+              600: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+              },
+              1024: {
                 slidesPerView: 3,
                 spaceBetween: 15,
               },
@@ -34,7 +38,7 @@ const Products = () => {
               clickable: true,
             }}
             modules={[FreeMode, Pagination]}
-            className="max-w-[90%] lg:max-w-[80%]"
+            className="max-w-[70%] lg:max-w-[80%]"
           >
             {ServiceData.map((item) => (
               <SwiperSlide key={item.title}>
@@ -46,7 +50,7 @@ const Products = () => {
                   <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50" />
                   <div className="relative flex flex-col gap-3">
                     <h1 className="text-xl lg:text-2xl text-black group-hover:text-white">{item.title} </h1>
-                    <p className="lg:text-[18px] text-white opacity-0 group-hover:opacity-100">{item.content} </p>
+                    <p className="text-[10px] lg:text-[18px] text-white opacity-0 group-hover:opacity-100">{item.content} </p>
                   </div>
                   <RxArrowTopRight className="absolute bottom-5 left-5 w-[35px] h-[35px] text-white group-hover:text-blue-500 group-hover:rotate-45 duration-100" />
                 </div>

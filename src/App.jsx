@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Services from "./components/Services/Services";
 import Products from "./components/Products/Products";
 import Testtimonials from "./components/Testimonials/Testtimonials";
+import Contact from "./components/Contact/Contact";
 // import HotDip from "./components/HotDip/hotdip";
 
 const BannerData = {
@@ -28,6 +29,7 @@ const App = () => {
       <Products />
       {/* <HotDip /> */}
       <Testtimonials />
+      <Contact />
     </div>
   );
 };
