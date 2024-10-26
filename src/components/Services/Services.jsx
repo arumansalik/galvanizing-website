@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 // eslint-disable-next-line no-unused-vars
 import React from "react";;
-import { SlideLeft } from "../../animation";
+import { SlideRight } from "../../animation";
 import "./Services.css";
 import { FaCheckCircle } from "react-icons/fa";
 import { GrCycle } from "react-icons/gr";
@@ -49,7 +49,7 @@ const Services = () => {
       <div className="container py-10">
         <div className="space-y-3 p-6 text-center max-w-[500px] mx-auto mb-5">
           <h1 className="uppercase font-semibold text-amber-500">Why Choose Hot-Dip Galvanizing</h1>
-          <p className="fontsemibold text-3xl">
+          <p className="text-4xl font-bold text-gray-900 leading-[3.25rem]">
           The Key Benefits for Long-Lasting Steel Protection
           </p>
         </div>
@@ -58,7 +58,7 @@ const Services = () => {
             return (
               // eslint-disable-next-line react/jsx-key
               <motion.div
-                variants={SlideLeft(item.delay)}
+                variants={SlideRight(item.delay)}
                 initial="hidden"
                 whileInView={"visible"}
                 className="space-y-4 p-6 rounded-xl shadow-[0_0_22px_rgba(0,0,0,0.15)]"

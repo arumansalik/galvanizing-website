@@ -30,7 +30,7 @@ const Contact = () => {
   };
   return (
     <div>
-      <div className="space-y-4 p-6 text-center max-w-[600px] mx-auto mb-6">
+      <div className="space-y-4 p-2 text-center max-w-[600px] mx-auto mb-3">
         <h1 className="uppercase font-semibold text-orange-600">Contact US</h1>
         <p className="font-semibold text-3xl">Get in Touch</p>
       </div>

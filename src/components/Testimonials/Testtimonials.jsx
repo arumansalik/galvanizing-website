@@ -2,6 +2,8 @@
 import React from "react";
 import Slider from "react-slick";
 // import { div } from "framer-motion/client";
+import { motion } from "framer-motion";
+import { SlideRight } from "../../animation";
 
 const TestimonialsData = [
   {
@@ -81,28 +83,37 @@ const Testtimonials = () => {
         </div>
         <div>
           <Slider {...setting}>
-          {
-            TestimonialsData.map((item) => {
-             return(
-                <div key={item.id}>
-                    <div className="flex flex-col gap-4 p-8 shadow-lg mx-4 rounded-xl bg-blue-100">
-                        <div className="flex justify-start items-center gap-5">
-                            <img src={item.img} alt="" className="w-16 h-16 rounded-full"/>
-                            <div>
-                                <p className="text-xl font-bold text-black/80">{item.name}</p>
-                                <p>{item.name}</p>
-                            </div>
-                            </div>
-                            <div className="py-6 space-y-4">
-                                <p className="text-sm text-gray-500">{item.text}</p>
-                                <p>⭐⭐⭐⭐⭐</p>
-                            </div>
+            {TestimonialsData.map((item) => {
+              return (
+                <motion.div
+                  variants={SlideRight(item.delay)}
+                  initial="hidden"
+                  whileInView={"visible"}
+                  key={item.id}
+                >
+                  <div className="flex flex-col gap-4 p-8 shadow-lg mx-4 rounded-xl bg-blue-100">
+                    <div className="flex justify-start items-center gap-5">
+                      <img
+                        src={item.img}
+                        alt=""
+                        className="w-16 h-16 rounded-full"
+                      />
+                      <div>
+                        <p className="text-xl font-bold text-black/80">
+                          {item.name}
+                        </p>
+                        <p>{item.name}</p>
+                      </div>
                     </div>
-                </div>
-             )
-            })
-          }
-        </Slider>
+                    <div className="py-6 space-y-4">
+                      <p className="text-sm text-gray-500">{item.text}</p>
+                      <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                  </div>
+                </motion.div>
+              );
+            })}
+          </Slider>
         </div>
       </div>
     </div>

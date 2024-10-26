@@ -21,7 +21,7 @@ const Banner = ({ image, title, subtitle, link, tag, reverse }) => {
               variants={SlideUp(0.5)}
               initial="hidden"
               whileInView={"visible"}
-              className="text-sm text-amber-500 font-semibold capitalize"
+              className="text-sm text-amber-500 font-semibold  capitalize"
             >
               {tag}
             </motion.p>
@@ -29,7 +29,7 @@ const Banner = ({ image, title, subtitle, link, tag, reverse }) => {
               variants={SlideUp(0.7)}
               initial="hidden"
               whileInView={"visible"}
-              className="text-xl lg:text-2xl font-semibold capitalize "
+              className="text-4xl font-bold text-gray-900 leading-[3.25rem] lg:mb-6 mx-auto max-w-max lg:max-w-md lg:mx-0 capitalize "
             >
               {title}
             </motion.p>

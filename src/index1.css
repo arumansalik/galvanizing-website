@@ -40,9 +40,9 @@ a {
   margin-left: 10px;
 }
 
-@media (max-width: 840px) {
+/* @media (max-width: 840px) {
   *{
     overflow-x: hidden;
 
   }
-}
+} */

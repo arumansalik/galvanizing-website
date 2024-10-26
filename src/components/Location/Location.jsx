@@ -4,8 +4,8 @@ import React from "react";
 const Location = () => {
   return (
     <div>
-      <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
-        <div className="space-y-4 p-6 text-center max-w-[600px] mx-auto mb-6">
+      <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:py-2 lg:px-8">
+        <div className="space-y-2 p-1 text-center max-w-[600px] mx-auto mb-6">
           <h1 className="uppercase font-semibold text-orange-600">Vist Us</h1>
           <p className="font-semibold text-3xl">Our Company Location</p>
         </div>

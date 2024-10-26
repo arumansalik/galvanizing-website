@@ -10,6 +10,8 @@ import Testtimonials from "./components/Testimonials/Testtimonials";
 import Contact from "./components/Contact/Contact";
 import Location from "./components/Location/Location";
 import Footer from "./components/Footer/Footer";
+import Feature from "./components/Feature/Feature";
+import Company from "./components/Company/Company";
 // import HotDip from "./components/HotDip/hotdip";
 
 const BannerData = {
@@ -30,9 +32,12 @@ const App = () => {
       <Services />
       <Products />
       {/* <HotDip /> */}
+      <Feature />
+      <Company />
       <Testtimonials />
       <Contact />
       <Location />
+      
       <Footer />
     </div>
   );
