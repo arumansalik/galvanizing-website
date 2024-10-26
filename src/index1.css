@@ -2,8 +2,8 @@
 
 * {
   font-family: "Outfit", sans-serif;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -16,7 +16,7 @@ a {
   line-height: 1;
   cursor: pointer;
 }
-.container {
+.contain {
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -38,4 +38,11 @@ a {
 .btn img {
   width: 20px;
   margin-left: 10px;
+}
+
+@media (max-width: 840px) {
+  *{
+    overflow-x: hidden;
+
+  }
 }

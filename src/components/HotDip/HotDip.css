@@ -58,3 +58,10 @@
 .right-contain img{
    left: -20px;
 }
+
+@media (max-width: 840px) {
+    .timeline{
+      overflow-x: visible;
+  
+    }
+  }

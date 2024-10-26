@@ -28,7 +28,7 @@ const Location = () => {
                     Our Address
                   </h3>
                   <p className="mt-1 text-gray-600">
-                    123 Main St, San Francisco, CA 94105
+                    22 Benoi Road - Singapore 629892
                   </p>
                 </div>
                 <div className="border-t border-gray-200 px-6 py-4">
@@ -41,8 +41,8 @@ const Location = () => {
                 </div>
                 <div className="border-t border-gray-200 px-6 py-4">
                   <h3 className="text-lg font-medium text-gray-900">Contact</h3>
-                  <p className="mt-1 text-gray-600">Email: info@example.com</p>
-                  <p className="mt-1 text-gray-600">Phone: +1 23494 34993</p>
+                  <p className="mt-1 text-gray-600">Email: cs@sggalv.com</p>
+                  <p className="mt-1 text-gray-600">Phone: +65 6252 1880 (6 lines)</p>
                 </div>
               </div>
             </div>

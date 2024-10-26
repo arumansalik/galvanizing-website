@@ -9,6 +9,7 @@ import Products from "./components/Products/Products";
 import Testtimonials from "./components/Testimonials/Testtimonials";
 import Contact from "./components/Contact/Contact";
 import Location from "./components/Location/Location";
+import Footer from "./components/Footer/Footer";
 // import HotDip from "./components/HotDip/hotdip";
 
 const BannerData = {
@@ -32,6 +33,7 @@ const App = () => {
       <Testtimonials />
       <Contact />
       <Location />
+      <Footer />
     </div>
   );
 };
