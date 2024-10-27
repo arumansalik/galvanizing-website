@@ -40,18 +40,51 @@ const Contact = () => {
             Send us a message{" "}
             <img className="w-[35px] ml-[10px]" src={msg_icon} alt="" />
           </h3>
-          <p className="max-w-[450px] [list-style:0.3]">
+          <p className="max-w-[450px] [list-style:0.3] text-[19px]">
             Feel free to reach out through contatct form or find our contact
           </p>
           <ul>
             <li className="flex items-center mx-[0] my-[20px]">
-              Arumansalik@gmail.com
+            Email: CS@sggalv.com
             </li>
             <li className="flex items-center mx-[0] my-[20px]">
-              +91 9395204345
+            Phone: +65 6252 1880 (6 lines)
             </li>
             <li className="flex items-center mx-[0] my-[20px]">
-              132 Vanniyan Kovil Street Thiruppathur
+            Mobile: +65 9896 1933
+            </li>
+          </ul>
+          <ul>
+            <li className="flex items-center mx-[0] my-[20px] text-xl font-semibold">
+              General Manager: Chris Pok
+            </li>
+            <li className="flex items-center mx-[0] my-[20px]">
+            Email: Chris.Pok@sggalv.com
+            </li>
+            <li className="flex items-center mx-[0] my-[20px]">
+            Mobile: +65 9652 0049
+            </li>
+          </ul>
+          <ul>
+            <li className="flex items-center mx-[0] my-[20px] text-xl font-semibold">
+            Operations & Marketing Manager: Sam Neo 
+            </li>
+            <li className="flex items-center mx-[0] my-[20px]">
+            Email: Sam.Neo@sggalv.com 
+            </li>
+            <li className="flex items-center mx-[0] my-[20px]">
+            Mobile: +65 9723 4277
+            </li>
+          </ul>
+          <ul>
+            <li className="flex items-center mx-[0] my-[20px] text-xl font-semibold">
+            Operations & Marketing Manager: Rayson Goh 
+            </li>
+            <li className="flex items-center mx-[0] my-[20px]">
+            Email: Rayson.Goh@sggalv.com
+            </li>
+            <li className="flex items-center mx-[0] my-[20px]">
+            Mobile: +65 9711 6083
             </li>
           </ul>
         </div>

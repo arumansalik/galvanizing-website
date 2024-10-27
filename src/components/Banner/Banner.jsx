@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { SlideUp } from "../../animation";
+import hotdip1 from "../../assets/hotdip.pdf";
 
 const Banner = ({ image, title, subtitle, link, tag, reverse }) => {
   return (
@@ -47,7 +48,9 @@ const Banner = ({ image, title, subtitle, link, tag, reverse }) => {
               whileInView={"visible"}
               className="flex justify-center md:justify-start"
             >
-              <button className="primary-btn">Get Started</button>
+              <button className="primary-btn">
+                <a href={hotdip1} download={hotdip1}>Get Started</a>
+              </button>
             </motion.div>
           </div>
         </div>

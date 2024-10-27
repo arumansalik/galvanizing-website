@@ -11,11 +11,12 @@ const Company = () => {
       <div className="max-w-3xl mx-auto px-5 mt-">
         <div className="flex flex-col justify-center">
           <div className="text-center">
-            <h2 className="font-semibold text-3xl">Our Sponsors</h2>
+            <h2 className="font-semibold text-3xl">Our Accreditation</h2>
 
             <p className="max-w-md mx-auto mt-5 text-gray-500">
-              We are thankful to each and every company sponsored our plugin
-              which helped us to continue working on it.
+              Our recognized accreditations highlight our commitment to quality,
+              safety, and compliance, ensuring excellence, trust, and high
+              standards across our services.
             </p>
           </div>
 
