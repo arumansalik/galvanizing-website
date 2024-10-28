@@ -4,7 +4,7 @@ import hotdip1 from "../../assets/hotdip.pdf";
 
 const Banner = ({ image, title, subtitle, link, tag, reverse }) => {
   return (
-    <div className="pb-14" id>
+    <div className="pb-14" name="home">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 space-y-6 md:space-y-0">
           <div>
@@ -49,7 +49,9 @@ const Banner = ({ image, title, subtitle, link, tag, reverse }) => {
               className="flex justify-center md:justify-start"
             >
               <button className="primary-btn">
-                <a href={hotdip1} download={hotdip1}>Get Started</a>
+                <a href={hotdip1} download={hotdip1}>
+                  More Info
+                </a>
               </button>
             </motion.div>
           </div>

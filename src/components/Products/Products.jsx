@@ -13,7 +13,7 @@ import './Products.css'
 
 const Products = () => {
   return (
-    <div className="py-20 bg-gray-200">
+    <div className="py-20 bg-gray-200" name="product">
       <div className="space-y-2 p-3 text-center max-w-[600px] mx-auto mb-5">
         <h1 className="uppercase font-semibold text-amber-500">
           Our Premium Products

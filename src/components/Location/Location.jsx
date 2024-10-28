@@ -31,14 +31,7 @@ const Location = () => {
                     22 Benoi Road - Singapore 629892
                   </p>
                 </div>
-                <div className="border-t border-gray-200 px-6 py-4">
-                  <h3 className="text-lg font-medium text-gray-900">Hours</h3>
-                  <p className="mt-1 text-gray-600">
-                    Monday - Friday: 9am - 5pm
-                  </p>
-                  <p className="mt-1 text-gray-600">Saturday: 10am - 4pm</p>
-                  <p className="mt-1 text-gray-600">Sunday: Closed</p>
-                </div>
+                
                 <div className="border-t border-gray-200 px-6 py-4">
                   <h3 className="text-lg font-medium text-gray-900">Contact</h3>
                   <p className="mt-1 text-gray-600">Email: cs@sggalv.com</p>

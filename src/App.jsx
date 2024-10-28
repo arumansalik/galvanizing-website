@@ -2,16 +2,16 @@
 import { React } from "react";
 import Img1 from "./assets/banner.png";
 import Banner from "./components/Banner/Banner";
-import Hero from "./components/Hero/Hero";
-import Navbar from "./components/Navbar/Navbar";
-import Services from "./components/Services/Services";
-import Products from "./components/Products/Products";
-import Testtimonials from "./components/Testimonials/Testtimonials";
-import Contact from "./components/Contact/Contact";
-import Location from "./components/Location/Location";
-import Footer from "./components/Footer/Footer";
-import Feature from "./components/Feature/Feature";
 import Company from "./components/Company/Company";
+import Contact from "./components/Contact/Contact";
+import Feature from "./components/Feature/Feature";
+import Footer from "./components/Footer/Footer";
+import Hero from "./components/Hero/Hero";
+import Location from "./components/Location/Location";
+import Navbar from "./components/Navbar/Navbar";
+import Products from "./components/Products/Products";
+import Services from "./components/Services/Services";
+import Testtimonials from "./components/Testimonials/Testtimonials";
 // import HotDip from "./components/HotDip/hotdip";
 
 const BannerData = {
@@ -37,7 +37,7 @@ const App = () => {
       <Testtimonials />
       <Contact />
       <Location />
-      
+
       <Footer />
     </div>
   );

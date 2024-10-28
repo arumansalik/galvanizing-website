@@ -29,7 +29,7 @@ const Contact = () => {
     }
   };
   return (
-    <div>
+    <div >
       <div className="space-y-4 p-2 text-center max-w-[600px] mx-auto mb-3">
         <h1 className="uppercase font-semibold text-orange-600">Contact US</h1>
         <p className="font-semibold text-3xl">Get in Touch</p>
@@ -37,8 +37,7 @@ const Contact = () => {
       <div className="mx-[auto] my-[80px] max-w-[90%] flex content-center justify-between mt-16 lg:mt-20" id="contact">
         <div className="contact-col">
           <h3 className="text-[#000F38] font-medium text-[25px] flex items-center mb-[20px]">
-            Send us a message{" "}
-            <img className="w-[35px] ml-[10px]" src={msg_icon} alt="" />
+            Get in Touch{" "}
           </h3>
           <p className="max-w-[450px] [list-style:0.3] text-[19px]">
             Feel free to reach out through contatct form or find our contact
@@ -88,7 +87,11 @@ const Contact = () => {
             </li>
           </ul>
         </div>
-        <div className="contact-col">
+        <div className="contact-col" >
+        <h3 className="text-[#000F38] font-medium text-[25px] flex items-center mb-[20px]" name="contact23">
+            Send us a message{" "}
+            <img className="w-[35px] ml-[10px]" src={msg_icon} alt="" />
+          </h3>
           <form onSubmit={onSubmit}>
             <label>Your name</label>
             <input
@@ -134,7 +137,7 @@ const Contact = () => {
               Submit Now
             </button>
           </form>
-          <span className="block mx-[0] my-[20px]">{result}</span>
+          <span className="block mx-[0] my-[20px]" >{result}</span>
         </div>
       </div>
     </div>
